@@ -49,3 +49,24 @@ if username == predefined_username:
     print("Incorrect password!")
 else:
     print("Invalid username!")
+
+# Q-4. Admission Eligibility: A university has the following eligibility criteria for admission:
+# note: Mathematics, Physics and Chemistry
+# Total marks in all three sub>=180 OR total marks in mathematics and Physics>=140.
+
+# Admission Eligibility
+
+marks1 = int(input("Enter a marks of math :"))
+marks2 = int(input("Enter a marks of physics :"))
+marks3 = int(input("Enter a marks of chemistry :"))
+
+total_marks = marks1 + marks2 + marks3
+math_physices_total = marks1 + marks2 
+if(marks1 >= 65 and
+   marks2 >= 55 and
+   marks3 >= 50 and
+   total_marks >= 180 and
+   math_physices_total >= 140):
+    print("Yor are Eligible")
+else:
+    print("you are not Eligible")
