@@ -48,4 +48,8 @@ str = "Regreesion Analysis"
 print(str[3:-3])
 
 
-# Get the substring that starts 4 characters from the end to the last character: for my_string = 'classification', slice the string starting from the 4th charater from the end to the charater.
+# Q-5. Get the substring that starts 4 characters from the end to the last character: for my_string = 'classification', slice the string starting from the 4th charater from the end to the charater.
+
+str = "classification"
+print(str[-4:])
+
