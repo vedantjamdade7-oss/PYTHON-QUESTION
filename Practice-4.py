@@ -44,7 +44,7 @@ print(middle)
 
 # Q-4. Remove the first 3 and last 3 charaters: Given my string = 'Data Analysis',Remove the first 3 and last 3 char
     
-str = "Regreesion Analysis"
+str = "Data Analysis"
 print(str[3:-3])
 
 
