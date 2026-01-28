@@ -17,5 +17,31 @@ mystring = "python course"
 
 print(mystring[2:8:2])
 
+# Q-3. Slice to get only the middle charater(s): For my_string = 'Vedant' use slicing to extract the middle character(s)
+
+mystring = "vedant"
+# index     012345
+
+mystring1 = "karan"
+#            01234
+
+# Function Method
+
+def mid_str(word):
+    middle = int(len(word)/2)
+    if len(word) % 2 == 0:           # even char len
+        return word[middle-1 : middle+1] #2:4
+    else:                           # odd char len
+        return word[middle]
+    
+print(mid_str(mystring))
+
+# OR
+
+my_string = 'Vedant'
+middle = my_string[2:4]
+print(middle)
+
+    
 
 # Get the substring that starts 4 characters from the end to the last character: for my_string = 'classification', slice the string starting from the 4th charater from the end to the charater.
