@@ -42,6 +42,10 @@ my_string = 'Vedant'
 middle = my_string[2:4]
 print(middle)
 
+# Q-4. Remove the first 3 and last 3 charaters: Given my string = 'Data Analysis',Remove the first 3 and last 3 char
     
+str = "Regreesion Analysis"
+print(str[3:-3])
+
 
 # Get the substring that starts 4 characters from the end to the last character: for my_string = 'classification', slice the string starting from the 4th charater from the end to the charater.
