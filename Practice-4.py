@@ -68,3 +68,4 @@ def is_palindrome(s):
         print(f"{s} is not palindrome")
     
 is_palindrome(word)
+
