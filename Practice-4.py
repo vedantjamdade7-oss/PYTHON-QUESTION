@@ -56,5 +56,15 @@ print(str[-4:])
 # Q-6. How to Reverse a string using python string methods
 
 word = "python"
-
 print(word[::-1])
+
+# Q-7. Write a python function to check if a string is a palindrome using string methods 
+word = "madam"
+
+def is_palindrome(s):
+    if s == s[::-1]:
+        print(f"{s} is a palindrome")
+    else:
+        print(f"{s} is not palindrome")
+    
+is_palindrome(word)
