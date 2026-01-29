@@ -53,3 +53,8 @@ print(str[3:-3])
 str = "classification"
 print(str[-4:])
 
+# Q-6. How to Reverse a string using python string methods
+
+word = "python"
+
+print(word[::-1])
