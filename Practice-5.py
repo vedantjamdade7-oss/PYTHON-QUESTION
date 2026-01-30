@@ -19,3 +19,13 @@ for i in range (1,n+1):
        print("*",end = " ")
     print()
 
+# Q-3. Write a program to find the factorial of a given number
+
+def factorial(n):
+    result = 1
+    while n > 0:
+        result *=n
+        n -= 1
+    return result
+
+print(factorial(8))
