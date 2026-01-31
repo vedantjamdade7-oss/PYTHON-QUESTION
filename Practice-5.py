@@ -61,3 +61,15 @@ while True:
         break
     else:
         print("number is not greater than 10, try again")
+
+# Q-7. Write a program to print first N number in the Fibonacci using while loop.
+
+def fibonacci(n):
+    a,b = 0,1
+    count = 0
+    while count < n:
+        print(a)
+        a,b = b , a+b
+        count += 1
+        
+fibonacci(10)
