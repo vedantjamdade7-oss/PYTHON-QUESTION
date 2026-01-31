@@ -40,3 +40,16 @@ for char in string:
     if char.lower() in vowels:
         count += 1
 print("Number of vowels are",count)
+
+# Q-5. Find the longest word in a sentence using a for loop
+
+string = "python by vedant jamdade you know he is a legent"
+words = string.split()
+longest_word = ""
+
+for word in words:
+    if len(word) > len(longest_word):
+        longest_word = word
+print("The longest word is:", longest_word)
+
+# Q-6. "do while"
