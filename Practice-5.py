@@ -52,4 +52,12 @@ for word in words:
         longest_word = word
 print("The longest word is:", longest_word)
 
-# Q-6. "do while"
+# Q-6. "do while" Loop in python - how to do it.
+
+while True: 
+    num = int(input("Enter a number greater than 10:"))
+    if num > 10:
+        print(f"valid number entered: {num}")
+        break
+    else:
+        print("number is not greater than 10, try again")
