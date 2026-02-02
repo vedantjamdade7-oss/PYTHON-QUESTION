@@ -94,3 +94,17 @@ def find_index(tup,elem):
     return tup.index(elem) if elem in tup else 'nahi hai '
 
 print(find_index(my_tuple,1000))
+
+# Q-6. Find the most frequent value in a dictionary
+
+data = {'a':1, 'b':2, 'c':1, 'd':3, 'e':1}
+
+def common_value (dict):
+    frequency = {}
+    for value in dict.values():
+        if value not in frequency:
+            frequency[value] = 0
+        frequency[value] += 1
+    max_value = max(frequency , key=frequency.get)
+    return max_value
+print(common_value(data))
