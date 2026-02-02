@@ -86,3 +86,11 @@ def remove_duplicates(lst):
 
 # using set constructor
 print(list(set(fruits)))
+
+# Q-5. Find the index of an element in a tuple
+
+my_tuple = (1,2,3,4)
+def find_index(tup,elem):
+    return tup.index(elem) if elem in tup else 'nahi hai '
+
+print(find_index(my_tuple,1000))
