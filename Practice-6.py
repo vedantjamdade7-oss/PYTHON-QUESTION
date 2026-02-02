@@ -108,3 +108,19 @@ def common_value (dict):
     max_value = max(frequency , key=frequency.get)
     return max_value
 print(common_value(data))
+
+# Q-6. Merge Dictionaries with summation
+
+dict1 = {'a':10, 'b':20, 'c':30}
+dict2 = {'b':15, 'c':35, 'd':25}
+
+def merge_dict(dict1, dict2):
+    result = dict1.copy()
+    for key, value in dict2.items():
+        if key in result:
+            result[key] += value
+        else:
+            result[key] = value
+    return result
+
+print(merge_dict(dict1,dict2))
