@@ -58,3 +58,23 @@ a = 18
 b = 6
 
 print("remainder when a is divided by b is",a % b)
+
+# Q-6. Write a program to convert a string to a float and print the type.
+
+a = input("enter the value of a:")
+t = float(a)
+print(type(t))
+
+# Q-7. Write a program to check if a is grater than b by inputing two numbers from input function.
+
+a = int(input("Enter number 1:"))
+b = int(input("Enter number 2:"))
+
+print("a is greater than b is ", a>b)
+
+# Q-8. Write a program to find the avrage of two numbers entered by the user.
+
+a = int(input("Enter number 1:"))
+b = int(input("Enter number 2:"))
+
+print(" the average of these two number is ",(a+b)/2)
