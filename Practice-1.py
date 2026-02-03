@@ -78,3 +78,10 @@ a = int(input("Enter number 1:"))
 b = int(input("Enter number 2:"))
 
 print(" the average of these two number is ",(a+b)/2)
+
+# Q-9. write a program to calculate the square of a number entered by the user.
+a = int(input("Enter  your number :"))
+
+# Squaring for the Number
+print ("the square of the number is ", a**2)
+print ("the square of the number is ", a*a)
