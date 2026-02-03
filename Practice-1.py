@@ -44,3 +44,17 @@ Lights the trav'ller in the dark:
 Tho' I know not what you are,
 Twinkle, twinkle, little star.''')
 
+
+# Q-4. Write a program to add two numbers and print the result.
+
+a = 56
+b = 78
+
+print(a + b)
+
+# Q-5. Write a program to find the remainder when a is divided by b.
+
+a = 18
+b = 6
+
+print("remainder when a is divided by b is",a % b)
