@@ -41,3 +41,23 @@ f6 = input("Enter fruits name:")
 fruits.append(f6)
 f7 = input("Enter fruits name:")
 fruits.append(f7)
+
+
+# Q-4. Write a program to store marks of six subjects entered by the user in a list and print the sorted list of marks.
+
+marks = []
+f1 = int(input("Enter marks Sci:"))
+marks.append(f1)
+f2 = int(input("Enter marks Math:"))
+marks.append(f2)
+f3 = int(input("Enter marks Eng:"))
+marks.append(f3)
+f4 = int(input("Enter marks Hindi:"))
+marks.append(f4)
+f5 = int(input("Enter marks SST:"))
+marks.append(f5)
+f6 = int(input("Enter marks Computer:"))
+marks.append(f6)
+
+marks.sort()
+print(marks)
