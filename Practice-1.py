@@ -86,3 +86,8 @@ a = int(input("Enter  your number :"))
 # Squaring for the Number
 print ("the square of the number is ", a**2)
 print ("the square of the number is ", a*a)
+
+# Q-10. Write a program to calculate the sum of all items in a list.
+s =[3,5,7,8,9,3,5,6,]
+
+print(sum(s))
