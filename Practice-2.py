@@ -25,3 +25,19 @@ user_data['status'] = input("Enter your statues :")
 print(user_data)
 
 
+# Q-3. Write a program to store seven fruites in a list entered by the user and print the list.
+fruits = []
+f1 = input("Enter fruits name:")
+fruits.append(f1)
+f2= input("Enter fruits name:")
+fruits.append(f2)
+f3 = input("Enter fruits name:")
+fruits.append(f3)
+f4 = input("Enter fruits name:")
+fruits.append(f4)
+f5 = input("Enter fruits name:")
+fruits.append(f5)
+f6 = input("Enter fruits name:")
+fruits.append(f6)
+f7 = input("Enter fruits name:")
+fruits.append(f7)
