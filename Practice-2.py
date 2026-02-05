@@ -87,3 +87,14 @@ lang = input("Enter language name: ")
 d.update({name: lang})
 
 print(d)
+
+# Q-6. Write a program to create a dictionary with 3 Hindi words as keys and their English translation as values. Allow the user to input a Hindi word and print its English Translation.
+words = {
+"madad" : "Help",
+"Inshan" : "Human",
+"loga" : "People"
+}
+
+word = input("Enter the word you want meaning of: ")
+
+print(words[word])
