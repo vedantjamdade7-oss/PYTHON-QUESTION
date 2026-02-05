@@ -61,3 +61,29 @@ marks.append(f6)
 
 marks.sort()
 print(marks)
+
+# Q-5. Write a program to store five friends name and their favorite language in dictionary entered by the user.
+
+d = {}
+
+name = input("Enter friends name: ")
+lang = input("Enter language name: ")
+d.update({name: lang})
+
+name = input("Enter friends name: ")
+lang = input("Enter language name: ")
+d.update({name: lang})
+
+name = input("Enter friends name: ")
+lang = input("Enter language name: ")
+d.update({name: lang})
+
+name = input("Enter friends name: ")
+lang = input("Enter language name: ")
+d.update({name: lang})
+
+name = input("Enter friends name: ")
+lang = input("Enter language name: ")
+d.update({name: lang})
+
+print(d)
