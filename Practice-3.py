@@ -70,3 +70,5 @@ if(marks1 >= 65 and
     print("Yor are Eligible")
 else:
     print("you are not Eligible")
+
+
