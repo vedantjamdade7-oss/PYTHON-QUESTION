@@ -138,6 +138,7 @@ if((p1 in message) or( p2 in message )or (p3 in message) or( p4 in message)):
 else:
     print("This comment is not a spam")
 
+# Q-9. Write a program to check if a given name is present in a list of names. The program should take a name as input and print "Name found" if the name is in the list, otherwise print "Name not found".
 
 list = ["vedant", "Falguni", "Om", "mahima"]
 
