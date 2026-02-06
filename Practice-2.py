@@ -137,3 +137,14 @@ if((p1 in message) or( p2 in message )or (p3 in message) or( p4 in message)):
 
 else:
     print("This comment is not a spam")
+
+
+list = ["vedant", "Falguni", "Om", "mahima"]
+
+name = input("Enter your name: ")
+
+if(name in list):
+    print("your name is in the list")
+
+else:
+    print("Your name is not in the list")
