@@ -72,7 +72,7 @@ else:
     print("you are not Eligible")
 
 
-#  Q-5. Prime Number check: Write a program that takes a number as input and checks whether it is a prime number or not.
+# Q-5. Prime Number check: Write a program that takes a number as input and checks whether it is a prime number or not.
 
 n = int(input("Enter the number : "))
 
@@ -91,4 +91,12 @@ product = 1
 for i in range(1,n+1):
     product = product * i
 
+# Q-7. Pattern printing write a program that takes a number as input and print the following pattern using loops.
 print(f"The factorial of {n} is {product}")
+
+n = int(input("Enter the number : "))
+
+for i in range (1,n+1):
+    print(" "* (n-i),end="")
+    print("*"* (2*i-1),end="")
+    print("")
