@@ -96,7 +96,7 @@ print(f"The factorial of {n} is {product}")
 
 n = int(input("Enter the number : "))
 
-for i in range (1,n+1):
-    print(" "* (n-i),end="")
-    print("*"* (2*i-1),end="")
-    print("")
+for i in range (1,n+1): # used for loop to print 0 to n
+    print(" "* (n-i),end="") # used to print space
+    print("*"* (2*i-1),end="") # used to print star like 1,3,5,7,9 skip the even number
+    print("") # used to print new line
