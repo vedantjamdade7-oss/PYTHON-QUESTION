@@ -72,3 +72,14 @@ else:
     print("you are not Eligible")
 
 
+#  Q-5. Prime Number check: Write a program that takes a number as input and checks whether it is a prime number or not.
+
+n = int(input("Enter the number : "))
+
+for i in range (2,n):
+    if(n%i) == 0:
+        print("Number is not prime")
+        break
+else:
+    print("Number is prime")
+    
