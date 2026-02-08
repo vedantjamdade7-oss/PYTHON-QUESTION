@@ -69,3 +69,24 @@ def is_palindrome(s):
     
 is_palindrome(word)
 
+
+# Q-8. Write a program to find the greatest of three numbers using if-else statement.
+
+def greaest(a,b,c):
+    if(a>b and a>c):
+        return a
+    
+    elif(b>a and b>c):
+         return b
+    
+    elif(c>b and c>a):
+        return c
+    
+
+
+a = int(input("Enter the number: "))#1
+b = int(input("Enter the number: "))#67
+c = int(input("Enter the number: "))#98
+
+print(greaest(a,b,c))
+print("It is a grater number")

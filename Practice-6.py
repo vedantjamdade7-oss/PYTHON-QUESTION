@@ -124,3 +124,4 @@ def merge_dict(dict1, dict2):
     return result
 
 print(merge_dict(dict1,dict2))
+
