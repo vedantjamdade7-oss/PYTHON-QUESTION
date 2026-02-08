@@ -76,7 +76,7 @@ fibonacci(10)
 
 # Q-8. Write a program to convert inches to centimeters(cm) using a function.
 
-def inch_to_cms(inch):
+def inch_to_cms(inch): # def fun is used to define the fun and inch is the parameter of the fun
     return inch * 2.54
 
 n = int(input("Enter value in inches : "))
