@@ -109,7 +109,7 @@ def common_value (dict):
     return max_value
 print(common_value(data))
 
-# Q-6. Merge Dictionaries with summation
+# Q-7. Merge Dictionaries with summation
 
 dict1 = {'a':10, 'b':20, 'c':30}
 dict2 = {'b':15, 'c':35, 'd':25}

@@ -73,3 +73,12 @@ def fibonacci(n):
         count += 1
         
 fibonacci(10)
+
+# Q-8. Write a program to convert inches to centimeters(cm) using a function.
+
+def inch_to_cms(inch):
+    return inch * 2.54
+
+n = int(input("Enter value in inches : "))
+
+print(f"The corresponding value in cms is {inch_to_cms(n)}")
