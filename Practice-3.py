@@ -100,3 +100,10 @@ for i in range (1,n+1): # used for loop to print 0 to n
     print(" "* (n-i),end="") # used to print space
     print("*"* (2*i-1),end="") # used to print star like 1,3,5,7,9 skip the even number
     print("") # used to print new line
+
+# Q-8. Write a program that takes a number as input and prints the multplipation table of that number up to 10.
+
+n = int(input("Enter the number: "))
+
+for i in range(1, 11):
+    print(f"{n} x {i} = {n*i}")
