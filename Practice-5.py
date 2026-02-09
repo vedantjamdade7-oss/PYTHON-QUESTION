@@ -83,7 +83,8 @@ n = int(input("Enter value in inches : "))
 
 print(f"The corresponding value in cms is {inch_to_cms(n)}")
 
-# Q-9.
+# Q-9. Write a program to convert Fahrenheit to celsius using a function.
+
 # Add ° c symbol
 def f_to_c(f):
     return 5 * (f - 32) / 9
