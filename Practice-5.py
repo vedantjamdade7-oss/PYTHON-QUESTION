@@ -82,3 +82,13 @@ def inch_to_cms(inch): # def fun is used to define the fun and inch is the param
 n = int(input("Enter value in inches : "))
 
 print(f"The corresponding value in cms is {inch_to_cms(n)}")
+
+# Q-9.
+# Add ° c symbol
+def f_to_c(f):
+    return 5 * (f - 32) / 9
+
+f = int(input("Enter temperature in F : "))
+c = f_to_c(f)
+
+print(f"{round(c,2)} °c" )
