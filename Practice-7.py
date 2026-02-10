@@ -13,5 +13,14 @@ else:
 f.close()
 
 
+# Q-2. Write a program to replace a word in a file with another word
 
+word = "Anonymous"
 
+with open("file.txt", "r") as f:
+    content = f.read()
+
+contentNew = content.replace(word,"######")
+
+with open("file.txt","w") as f:
+    f.write(contentNew)
