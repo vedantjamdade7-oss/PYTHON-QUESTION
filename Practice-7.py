@@ -1,6 +1,6 @@
 #  Q-1. Write a program to find the largest of three number using if-else statement.
 
-f = open(r"d:\GitHub_QA\PYTHON-QUESTION\poem.txt")
+f = open("poem.txt")
 
 content = f.read()
 if("success" in content):
@@ -11,3 +11,7 @@ else:
 
 
 f.close()
+
+
+
+
