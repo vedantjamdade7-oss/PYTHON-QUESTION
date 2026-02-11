@@ -35,8 +35,10 @@ if("Python" in content):
     print("Yes Python is Present")
 else:
     print("No Python is not present")
+    
 
 # Q-4. Write a program to check if the word "Python" is present in the file or not and also print the line number if it is present.
+
 with open("log.txt") as f:
     lines = f.readlines()  # Correct variable name
 
