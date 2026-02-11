@@ -1,16 +1,16 @@
 #  Q-1. Write a program to find the largest of three number using if-else statement.
 
-f = open("poem.txt")
+# f = open("poem.txt")
 
-content = f.read()
-if("success" in content):
-    print("The word success is present in this content")
+# content = f.read()
+# if("success" in content):
+#     print("The word success is present in this content")
 
-else:
-    print("The word success is not present in the content")
+# else:
+#     print("The word success is not present in the content")
 
 
-f.close()
+# f.close()
 
 
 # Q-2. Write a program to replace a word in a file with another word
@@ -24,3 +24,14 @@ contentNew = content.replace(word,"######")
 
 with open("file.txt","w") as f:
     f.write(contentNew)
+
+
+# Q-3. Write a program to check if the word "python" is present in the file or not.
+
+with open("log.txt") as f:
+    content = f.read()
+
+if("python" in content):
+    print("Yes python is Present")
+else:
+    print("No python is not present")
