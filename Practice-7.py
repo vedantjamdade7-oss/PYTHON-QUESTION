@@ -58,8 +58,8 @@ with open("this.txt") as f:
 
 with open("this_copy.txt","w") as f:
     f.write(Content)
-    
 
+# Q-6. Write a program to create a game in which you have to guess a number between 1 to 100 and you will be given a score based on how close you are to the actual number. The score will be calculated as 100 - the absolute difference between your guess and the actual number.
 import random
 
 def game():
