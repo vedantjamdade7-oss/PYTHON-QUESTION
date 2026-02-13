@@ -85,23 +85,4 @@ def game():
 game()    
          
 
-# Q-7. Write a program to read three files and print their content. If any file is not found, it should print an error message and continue with the next file.
-try:
-    with open ("1.txt", "r") as f:
-        print(f.read())
-except Exception as e:
-    print(e)
 
-try:
-    with open ("2.txt", "r") as f:
-        print(f.read())
-except Exception as e:
-    print(e)
-
-try:
-    with open ("3.txt", "r") as f:
-        print(f.read())
-except Exception as e:
-    print(e)
-
-print("Thank you!")
