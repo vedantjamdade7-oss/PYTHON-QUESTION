@@ -34,7 +34,7 @@ else:
     print("Red")
 
 
-# Q-3. Login Authentication using condition statement. Assume you have a predefined username and password
+# Q-4. Login Authentication using condition statement. Assume you have a predefined username and password
 
 # note: Write a program that prompts the user to enter a username and password and checks wether they match. Provide appropriate message for the following cases:
 #Both username and password are correct
@@ -59,7 +59,7 @@ if username == predefined_username:
 else:
     print("Invalid username!")
 
-# Q-4. Admission Eligibility: A university has the following eligibility criteria for admission:
+# Q-5. Admission Eligibility: A university has the following eligibility criteria for admission:
 # note: Mathematics, Physics and Chemistry
 # Total marks in all three sub>=180 OR total marks in mathematics and Physics>=140.
 
@@ -81,7 +81,7 @@ else:
     print("you are not Eligible")
 
 
-# Q-5. Prime Number check: Write a program that takes a number as input and checks whether it is a prime number or not.
+# Q-6. Prime Number check: Write a program that takes a number as input and checks whether it is a prime number or not.
 
 n = int(input("Enter the number : "))
 
@@ -92,7 +92,7 @@ for i in range (2,n):
 else:
     print("Number is prime")
 
-# Q-6. Factorial of a number: Write a program that takes a number as input and calculates its factorial.
+# Q-7. Factorial of a number: Write a program that takes a number as input and calculates its factorial.
 # 5! = 1 x 2 x 3 x 4 x 5
 
 n = int(input("Enter the number : "))
@@ -100,7 +100,7 @@ product = 1
 for i in range(1,n+1):
     product = product * i
 
-# Q-7. Pattern printing write a program that takes a number as input and print the following pattern using loops.
+# Q-8. Pattern printing write a program that takes a number as input and print the following pattern using loops.
 print(f"The factorial of {n} is {product}")
 
 n = int(input("Enter the number : "))
@@ -110,7 +110,7 @@ for i in range (1,n+1): # used for loop to print 0 to n
     print("*"* (2*i-1),end="") # used to print star like 1,3,5,7,9 skip the even number
     print("") # used to print new line
 
-# Q-8. Write a program that takes a number as input and prints the multplipation table of that number up to 10.
+# Q-9. Write a program that takes a number as input and prints the multplipation table of that number up to 10.
 
 n = int(input("Enter the number: "))
 
