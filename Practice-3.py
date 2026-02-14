@@ -24,6 +24,15 @@ if age >= 19:
 else:
     print(f"{age} NO, you are not Eligible for vote")
 
+# Q-3. Write a program to check the EMA (Exponential Moving Average) of a stock and print "Green" if the EMA is above 50, "Yellow" if the EMA is between 30 and 50, and "Red" if the EMA is below 30.
+EMA = float(input("Enter you EMA : "))
+if(EMA >= 50):
+    print("Green")
+elif(EMA >= 30):
+    print("Yellow")
+else:
+    print("Red")
+
 
 # Q-3. Login Authentication using condition statement. Assume you have a predefined username and password
 
